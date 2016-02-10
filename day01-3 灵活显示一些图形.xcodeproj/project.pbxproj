@@ -21,6 +21,7 @@
 		85CB1D841A1738D500548E97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CB1D661A1738D500548E97 /* UIKit.framework */; };
 		85CB1D8C1A1738D500548E97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85CB1D8A1A1738D500548E97 /* InfoPlist.strings */; };
 		85CB1D8E1A1738D500548E97 /* day01_3_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CB1D8D1A1738D500548E97 /* day01_3_________Tests.m */; };
+		85CB1D991A1738DF00548E97 /* TRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CB1D981A1738DF00548E97 /* TRView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		85CB1D891A1738D500548E97 /* day01-3 灵活显示一些图形Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "day01-3 灵活显示一些图形Tests-Info.plist"; sourceTree = "<group>"; };
 		85CB1D8B1A1738D500548E97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85CB1D8D1A1738D500548E97 /* day01_3_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "day01_3_________Tests.m"; sourceTree = "<group>"; };
+		85CB1D971A1738DF00548E97 /* TRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRView.h; sourceTree = "<group>"; };
+		85CB1D981A1738DF00548E97 /* TRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				85CB1D781A1738D500548E97 /* TRViewController.m */,
 				85CB1D7A1A1738D500548E97 /* Images.xcassets */,
 				85CB1D691A1738D500548E97 /* Supporting Files */,
+				85CB1D971A1738DF00548E97 /* TRView.h */,
+				85CB1D981A1738DF00548E97 /* TRView.m */,
 			);
 			path = "day01-3 灵活显示一些图形";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CB1D991A1738DF00548E97 /* TRView.m in Sources */,
 				85CB1D731A1738D500548E97 /* TRAppDelegate.m in Sources */,
 				85CB1D6F1A1738D500548E97 /* main.m in Sources */,
 				85CB1D791A1738D500548E97 /* TRViewController.m in Sources */,
